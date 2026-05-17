@@ -1,5 +1,37 @@
-# Vue 3 + TypeScript + Vite
+# 🎵 3D Music Visualizer
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+![Uploading Capture d’écran 2026-05-17 212050.png…]()
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+
+An interactive 3D audio visualizer built with Three.js and TypeScript. Users pick a song from their browser and watch it come alive as a real-time 3D animation that reacts to the music.
+
+## Demo
+
+> Run locally to see it in action (see instructions below)
+
+## Features
+
+- 🎧 Load any audio file from your browser
+- 🌐 Real-time 3D animation driven by audio frequency data
+- ⚡ Smooth, interactive rendering with Three.js
+- 🎨 Dynamic visuals that respond to beat and rhythm
+
+## Tech Stack
+
+- **Three.js** — 3D rendering and animation
+- **TypeScript** — typed, maintainable codebase
+- **Web Audio API** — real-time audio analysis
+- **Vite** — fast dev server and bundler
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Then open [http://localhost:5173](http://localhost:5173) in your browser, pick a song, and watch it visualize.
+
+## How It Works
+
+The app uses the browser's Web Audio API to analyse the frequency data of the chosen audio file in real time. That data is fed into a Three.js scene every frame, driving the shape, scale, and color of the 3D objects to create visuals that react to the music.
