@@ -1,6 +1,7 @@
 # 🎵 3D Music Visualizer
 
-![Uploading Capture d’écran 2026-05-17 212050.png…]()
+<img width="959" height="410" alt="Capture d’écran 2026-05-17 212050" src="https://github.com/user-attachments/assets/02bb64d6-ca76-4001-ab25-2b8170b3bd7c" />
+
 
 
 An interactive 3D audio visualizer built with Three.js and TypeScript. Users pick a song from their browser and watch it come alive as a real-time 3D animation that reacts to the music.
